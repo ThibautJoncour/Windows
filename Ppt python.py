@@ -50,7 +50,6 @@ def df_to_table(slide,df,x, y, cx, cy,index_names=False,columns_names=True):
 # In[15]:
 
 
-df=pd.read_excel(r'C:\Users\Mon PC\Documents\ppt_excel.xlsx')
 prs = Presentation()
 blank_slide_layout = prs.slide_layouts[6]
 slide = prs.slides.add_slide(blank_slide_layout)
